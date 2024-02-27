@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 50px;
+    background-color: rgb(243, 243, 222);
+    scroll-behavior: smooth;
+}
+
+.job-board {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgb(243, 243, 222);
+}
+
+.job-list {
+    list-style: none;
+    padding: 0;
+}
+
+.job-list li {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color:rgb(237, 114, 13);
+    color: #fff;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+h1{
+    color: rgb(237, 114, 13);
+}
